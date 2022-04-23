@@ -13,7 +13,9 @@ def place_mines_grid():
     if grid[row][col] != '*':
       grid[row][col] = '*'
       count += 1     
-  #for row in grid:
+   
+  #to check at which positions mines were placed in the grid
+  #for row in grid:     
    # print("  ".join(str(cell) for cell in row))
   
   
@@ -75,7 +77,7 @@ def lose_game():
   print("lose the game! u entered into a mine ")
          
    
- #3 types of inputs 
+#checking the input given by user
 list_nonzeros = []
 
 def input_types(grid,row_in,col_in):
